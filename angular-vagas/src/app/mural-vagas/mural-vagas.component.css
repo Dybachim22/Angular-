@@ -1,0 +1,28 @@
+
+.lista-vagas{
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.lista-vagas .card{
+    display: flex;
+    margin: 40px;
+    min-height: 400px;
+    
+}
+
+.card-vagas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card:hover{
+    scale: 1.01;
+}
+
+section{
+    min-height: 440px;
+}
